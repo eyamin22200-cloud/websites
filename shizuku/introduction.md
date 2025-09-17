@@ -1,4 +1,4 @@
-# Introduction
+adb shell /data/app/moe.shizuku.privileged.api-m2Gn_CRuYy1Y-2CUoKmnrw==/lib/arm64/libshizuku.so# Introduction
 
 Shizuku can help normal apps uses system APIs directly with adb/root privileges with a Java process started with app_process.
 
@@ -32,7 +32,7 @@ The disadvantages of this type of method are:
 3. Features are subject to available commands
 4. Even if adb has sufficient permissions, the app requires root privileges to run
 
-### Shizuku method
+adb shell /data/app/moe.shizuku.privileged.api-m2Gn_CRuYy1Y-2CUoKmnrw==/lib/arm64/libshizuku.so### Shizuku method
 
 The Shizuku app will direct the user to run a process (Shizuku service process) using root or adb.
 
